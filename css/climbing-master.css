@@ -2,6 +2,8 @@
 			color: dark-grey;
 			background-color: #d8da3d;
 			text-align: left;
+			font-size: 14px;
+			font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 		#main {
 			width: auto;
@@ -74,4 +76,22 @@
 	
 }
 #content{
+	width: 320px;
 	text-align: left;
+}
+#comments {
+	border: 1px black solid;
+	height: 80px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	
+}
+#comment-image{
+	padding-top: 10px;
+	float: left;
+}
+#comments p{
+	text-align: left;
+	padding-left: 60px;
+}
+
