@@ -1,0 +1,79 @@
+	body {
+			color: dark-grey;
+			background-color: #d8da3d;
+			text-align: left;
+			font-size: 18px;
+}
+		#main {
+			width: auto;
+			height:auto;
+			text-align: center;
+			border-style:solid;
+			border-width:5px;
+			background-color: white;
+			padding: 10px;
+		}
+		#walls {
+			text-align:left;			
+			width:100%;
+			float:left;
+			padding-left: 20px;
+			font-size: 18px;
+		}
+		#walls ul {
+			list-style-type: none;
+			padding:5px; 
+			margin:1px;
+			text-align: left;
+			
+}
+#problems {
+			text-align:left;			
+			width:100%;
+			float:left;
+			padding-left: 20px;
+			font-size: 18px;
+		}
+		#problems ul{
+			list-style-type: none;
+			padding-left:15px; 
+			margin:1px;
+			text-align: left;
+}
+#problem-description{
+	text-align: left;
+	padding-left: 20px;
+}
+		#gym-description {
+			
+			float: left;
+			text-align: left;
+			padding-left: 30px;
+		}
+		#HomeImage
+		{
+			float:left;
+			padding: 10px;
+			}
+
+#HomeImage
+		{
+			float:left;
+			padding-top: 10px;
+			}
+		#footer {
+			clear: both;
+			background-color: orange;
+			margin-top: 20px;
+		}
+
+#problem-meta {
+	list-style-type: none;
+			padding:30px; 
+			margin:1px;
+			text-align: left;
+	
+}
+#content{
+	text-align: left;
+}
