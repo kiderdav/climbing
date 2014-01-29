@@ -1,98 +1,105 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+         <meta charset="utf-8">
+         <title>Climbing App</title>
+         <link rel="stylesheet" href="http://flip.hr/css/bootstrap.min.css">
+	  <!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
+ </head>
+ <body>
+     <nav class="navbar navbar-default" role="navigation">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	      <span class="sr-only">Toggle navigation</span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="#">BSI Climbing</a>
+	  </div>
 
-<head>
-	<title>Climbing app</title>
-	
-	<link rel="stylesheet" href="css/climbing-master.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap-theme.css" rel="stylesheet">
-	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet">
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li><a href="walls.htm">Walls</a></li>
+	      <li><a href="#">Routes</a></li>
+		<li><a href="profile.htm">Profile</a></li>
+	    </ul>
+	    <form class="navbar-form navbar-left" role="search">
+	      <div class="form-group">
+	        <input type="text" class="form-control" placeholder="Search">
+	      </div>
+	      <button type="submit" class="btn btn-default">Submit</button>
+	    </form>
 
-	
-</head>
+	  </div><!-- /.navbar-collapse -->
+	</nav>    
+ <div class="container-fluid">
+         
+         <div class="hero-unit">
+         <h2>Brooklyn Boulders</h2>
+         <p>Dashboard - Welcome Ken</p>
+	<img src="images/bkb.jpg" class="img-responsive" alt="Responsive image">
+         </div><!-- .hero-unit -->
+        
+ <div class="row">
+         <div class="span6">
+         <h3>Latest Climbing Session</h3>
+         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
+	<img src="images/last_session.png" class="img-responsive" alt="Responsive image"><br>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
+   
+         <div class="span6">
+                 <h3>Over Boulerding at BkB</h3>
+         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
+<img src="images/bouldering_diagram.png" class="img-responsive" alt="Responsive image"><br>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
+   
+         <div class="span6">
+                 <h3>Overall Routes at BkB</h3>
+         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
+<img src="images/bouldering_diagram.png" class="img-responsive" alt="Responsive image"><br>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
 
-<body>
-	<div id="main" >
-		<ul class="nav nav-tabs">
-			  <li class="active"><a href="index.htm">Home</a></li>
-			      <li><a href="walls.htm">Walls</a></li>
-			      <li ><a href="#">Routes</a></li>
-				<li><a href="profile.htm">Profile</a></li>
-			</ul>
+         <div class="span6">
+                 <h3>BkB News</h3>
+         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
+<img src="images/gym_news.png" class="img-responsive" alt="Responsive image"><br>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
 
+         <div class="span6">
+                 <h3>Climbing News</h3>
+         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
 
-				<div>
-					<h2 class="page-header">Brooklyn Boulders</h2><p class="lead">Brooklyn Boulders Dashboard -Welcome Ken.<p/>
-					 <div id="HomeImage" class="col-md-4"><img src="images/bkb.jpg" class="img-responsive" alt="Responsive image"></div>
-				</div>		
-		
-		
-				<div class="panel panel-default">
-				  <!-- Default panel contents -->
-				  <div class="panel-heading">Latest Climbing Session</div>
-					<div class="table-responsive">	
-						<table class="table table-bordered table-hover">
-							<thead>
-								<th>Grade</th>
-								<th>Color</th>
-								<th>Location</th>
-								<th>Rating</th>
-							</thead>
-						  <tr>
-						    <td><a href="ken-nemesis.htm">V5</a></td>
-							<td>Green</td>
-							<td>Cliff Band Wall</td>
-						    <td><img id="stars" src="images/stars.png" /></td>
-						  </tr></a>
-						  <tr>
-						    <td>V3</td>
-							<td>Red</td>
-							<td>High Ball Wall</td>
-						    <td><img id="stars" src="images/stars.png" /></td>
-						  </tr>
-						  <tr>
-						    <td>V6</td>
-							<td>Pink</td>
-							<td>35 Wall</td>
-						    <td><img id="stars" src="images/stars.png" /></td>
-						  </tr>
-						  <tr>
-						    <td>V4</td>
-							<td>Black</td>
-							<td>The Beast</td>
-						    <td><img id="stars" src="images/stars.png" /></td>
-						  </tr>
-						  <tr>
-						    <td>V2</td>
-							<td>Green</td>
-							<td>Workshop</td>
-						    <td><img id="stars" src="images/stars.png" /></td>
-						  </tr>
-						  <tr>
-						    <td>V1</td>
-							<td>Green</td>
-							<td>Workshop</td>
-						    <td><img id="stars" src="images/stars.png" /></td>
-						  </tr>
-						  <tr>
-						    <td>V6</td>
-							<td>Green</td>
-							<td>45 Wall</td>
-						    <td><img id="stars" src="images/stars.png" /></td>
-						  </tr>
-						</div>
-			</div><br>		
-				
+         <div class="span6">
+                 <h3>One More Cause We Need 6</h3>
+         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+         <p><a class="btn" href="#">Click meeee &raquo;</a></p>
+         </div><!-- .span4 -->
+   
+ </div><!-- .row -->
+	<div id="footer">
+		&copy; Copyright 2014 Brooklyn Sundays, Inc.
 	</div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-</body>
+ </div><!-- .container -->
+ 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://code.jquery.com/jquery.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/bootstrap.min.js"></script>     
+
+ </body>
 
 </html>

@@ -18,23 +18,47 @@
 </head>
 
 <body>
-	<div id="main">
-		<div id="header">
-			<ul class="nav nav-tabs">
-			  <li ><a href="index.htm">Home</a></li>
-			      <li><a href="#">Walls</a></li>
-			      <li class="active"><a href="#">Routes</a></li>
-				<li><a href="profile.htm">Profile</a></li>
-			</ul>
-		</div>
-		<div id="content">			
-			<div="top-shit">
-				<a href="cliff-band-wall.htm">Back to Cliff Band Wall</a>
-			</div>
+	
+	<nav class="navbar navbar-default" role="navigation">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	      <span class="sr-only">Toggle navigation</span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="#">BSI Climbing</a>
+	  </div>
+
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <ul class="nav navbar-nav">
+	      <li><a href="index.htm">Home</a></li>
+	      <li class="active"><a href="walls.htm">Walls</a></li>
+	      <li><a href="#">Routes</a></li>
+		<li><a href="profile.htm">Profile</a></li>
+	    </ul>
+	    <form class="navbar-form navbar-left" role="search">
+	      <div class="form-group">
+	        <input type="text" class="form-control" placeholder="Search">
+	      </div>
+	      <button type="submit" class="btn btn-default">Submit</button>
+	    </form>
+
+	  </div><!-- /.navbar-collapse -->
+	</nav<>
+	
+
+	
+		<div  class="container">			
+			
+				<a href="cliff-band-wall.htm"><p><span class="glyphicon glyphicon-arrow-left"></span> Back to Cliff Band Wall</p></a>
+		
 	
 			<div id="problem-description">
 				<ul id="problem-meta" >
-					<label><strong>Blue V5</strong></label>
+					<label><strong><h4>Blue V5</h4></strong></label>
 					<li>Date put up: Jan 15, 2014</li>
 					<li>Sends: 49</li>
 					<li>Flashes: 20</li>
@@ -44,22 +68,26 @@
 				</ul>
 				<h3>Comments</h3>
 				<div class="media">
-				  <a class="pull-left" href="#">
+				  <a class="pull-left" href="profile.htm">
 				    <img class="media-object" src="images/kh.jpg" alt="...">
 				  </a>
 				  <div class="media-body">
-				    <h4 class="media-heading">Hallerk</h4>
+				    <h4 class="media-heading"><a href="profile.htm">Hallerk</a></h4>
 				    This is the most awesome climb ever. #loveit
 				  </div>
 				</div>
 				<div class="media">
-				  <a class="pull-left" href="#">
+				  <a class="pull-left" href="profile.htm">
 				    <img class="media-object" src="images/dk.jpg" alt="...">
 				  </a>
 				  <div class="media-body">
-				    <h4 class="media-heading">KiderDav</h4>
+				    <h4 class="media-heading"><a href="profile.htm">KiderDav</a></h4>
 				   #hateit. Hate this climb. Hate the setter. Im a hater.
 				  </div>
+				<br>
+				<p>
+				  <button type="button" class="btn btn-default">Add Comment</button>
+				</p>
 				</div>
 			<div id="footer">
 				&copy; Copyright 2014 Brooklyn Sundays, Inc.
